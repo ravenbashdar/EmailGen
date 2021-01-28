@@ -9,11 +9,11 @@ White="\e[1;97m"
 ##### Banner #####
 banner () { clear
 echo -e "${Red} this tool created by ${Red} Arez Bashdar Owner System Zone     
-${Red} _     ______ ______  _______                      
-${Red}| |    |    / |             /     
-${Red}|   |   |  /   |            / 
-${Red}|     |  | /    |           /
-${White}|-----|  |\     |          / 
+${Red}      _     ______ ______  _______                      
+${Red}     | |    |    / |             /     
+${Red}    |   |   |  /   |            / 
+${Red}   |     |  | /    |____       /
+${White} |-----|  |\     |          / 
 ${White} |     |  | \    |_____    /____                                         
 ${blue} Slaw barezakam atwani ba dle xot email drust kay \n
          \e[0;96mDeveloped by: ${Red}Arez (System Zome)\n\n"
@@ -24,15 +24,15 @@ email () {
 ##### Takaya emailakat bnusa : nmuna SystemZone@gmail.com #####
 read -p $'\e[1;97m[\e[1;92m*\e[1;97m]\e[1;92m Lera bnusa : \e[1;97m' email
 if [[ $email =~ ^[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,4}$ ]]; then
-read -p $'\e[1;97m[\e[1;92m*\e[1;97m]\e[1;92m Number of mails to generate : \e[1;97m' number
+read -p $'\e[1;97m[\e[1;92m*\e[1;97m]\e[1;92m Chan Gmail Drust kam  : \e[1;97m' number
 
 ##### Extracting name and domain from email #####
 name=`echo $email | cut -d "@" -f 1`
 domain=`echo $email | cut -d "@" -f 2`
-echo -e "$White[${Red}!$White]$Red Generating :${White}\e[0;97m"
+echo -e "$White[${Red}!$White]$Red Drust Abe :${yallow}\e[0;97m"
 sleep 1
 
-##### Email Generating #####
+##### Email drust bun #####
 echo "import sys
 def generator(name): 
  return [name] + [name[:i]+\".\"+right for i in range(1,len(name)) for right in generator(name[i:]) ]
@@ -63,7 +63,7 @@ cat $name.lst
 trap "rm $name.lst &> /dev/null" EXIT
 
 ##### Save the generated output #####
-read -p $'\n\e[1;97m[\e[1;92m*\e[1;97m]\e[1;92m Do you want to save the output (y/n) : \e[1;97m' save_output
+read -p $'\n\e[1;97m[\e[1;92m*\e[1;97m]\e[1;92m Atawe Save kay  (y/n) : \e[1;97m' Save_output
 if [ "$save_output" = "Y" ] || [ "$save_output" = "y" ]; then
 
 ##### Check if output directory exists #####
@@ -75,7 +75,7 @@ echo -e "$White[${Yellow}*$White]$Yellow Output saved at : ${White}output/$name.
 echo -e "$White[${Red}!$White]$Red Exiting...\n"; exit
 else 
 rm $name.lst
-echo -e "$White[${Red}!$White]$Red Exiting...\n"; exit
+echo -e "$White[${Red}!$White]$Red Bo darawa batamay Che😂...\n"; exit
 fi
 else
 echo -e "$White[${Red}!$White]$Red Invalid email address"
