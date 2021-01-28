@@ -78,7 +78,7 @@ rm $name.lst
 echo -e "$White[${Red}!$White]$Red Bo darawa batamay Che😂...\n"; exit
 fi
 else
-echo -e "$White[${Red}!$White]$Red Invalid email address"
+echo -e "$White[${Red}!$White]$Red Xalata day chay ka"
 email 
 fi
 }
