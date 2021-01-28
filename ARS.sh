@@ -9,12 +9,12 @@ White="\e[1;97m"
 ##### Banner #####
 banner () { clear
 echo -e "${Red} this tool created by ${Red} Arez Bashdar Owner System Zone     
-${Red}      _     ______ ______  _______                      
-${Red}     | |    |    / |             /     
-${Red}    |   |   |  /   |            / 
-${Red}   |     |  | /    |____       /
-${White} |-----|  |\     |          / 
-${White} |     |  | \    |_____    /____                                         
+${Red}    _     ______ ______  _______                      
+${Red    | |    |    / |             /     
+${Red}  |   |   |  /   |            / 
+${Red} |     |  | /    |____       /
+${red} |-----|  |\     |          / 
+${red} |     |  | \    |_____    /____                                         
 ${blue} Slaw barezakam atwani ba dle xot email drust kay \n
          \e[0;96mDeveloped by: ${Red}Arez (System Zome)\n\n"
 }
