@@ -75,7 +75,7 @@ echo -e "$White[${Yellow}*$White]$Yellow Output saved at : ${White}output/$name.
 echo -e "$White[${Red}!$White]$Red Exiting...\n"; exit
 else 
 rm $name.lst
-echo -e "$White[${Red}!$White]$Red Bo darawa batamay Che😂...\n"; exit
+echo -e "$White[${Red}!$White]$Red Bo darawa batamay Che...\n"; exit
 fi
 else
 echo -e "$White[${Red}!$White]$Red xalata chay ka"
