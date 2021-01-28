@@ -78,7 +78,8 @@ rm $name.lst
 echo -e "$White[${Red}!$White]$Red Bo darawa batamay Che😂...\n"; exit
 fi
 else
-echo -e "$White[${Red}!$White]$Red Xalata day chay ka"
+echo -e "$White[${Red}!$White]$Red xalata chay ka"
+
 email 
 fi
 }
